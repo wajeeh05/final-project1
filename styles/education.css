@@ -1,0 +1,76 @@
+body {
+    background-color: lightskyblue;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    scroll-behavior: smooth;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 37px;
+
+}
+
+
+
+  
+    
+
+.education{
+    background-color: lightskyblue;
+    padding: 10px;
+  
+    /* flex properties */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.uqu{
+
+    background-color: lightgray;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+
+.uqu-text {
+
+    margin: 10px 10px;
+    font-size: x-large;
+    font-family: cursive;
+    color: black;
+}
+
+.uqu-logo, .mcgill-logo {
+
+    border: 2px solid lightskyblue;
+}
+
+.mcgill{
+
+    background-color: lightgray;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+.mcgill-text {
+
+    margin: 10px 4px;
+    font-size: x-large;
+    font-family: cursive;
+    color: black;
+}

@@ -1,0 +1,289 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    scroll-behavior: smooth;
+    height: 203vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.alahli-logo{
+    width: 100px;
+    top: 100px;
+    left: 100px;
+    margin: 21px 10px 30px 19px;
+    border-radius: 50%;
+
+}
+.barcelona-logo{
+    
+    width: 100px;
+    top: 96px;
+    left: 400px;
+    margin: -89px 10px 10px 322px;
+}
+
+.alahli {
+
+    margin: -107px 10px 5px 198px;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #283a6a, #20835e);  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    
+
+}
+.barcelona {
+
+    margin: 40px 10px 10px 50px;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #fbc90b, #004d98, #a50044);  
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+
+.background{
+
+    background-color: #a3b1bfb8;
+
+}
+
+
+/* نغير البوزيشنينج و نحول نستخدم margin and padding لتحريك الاشياء */
+.soccer-text{
+    
+    
+    top: 20px;
+    left: 20%;
+    color: black;
+    font-size: 41px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px 469px 50px 149px
+}
+.scuba-diving{
+    
+    top: 400px;
+    left: 20%;
+    color: black;
+    font-size: 41px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 9px 70px 10px 70px;
+    text-align: center
+
+}
+
+.photo-text{
+    top: 400px;
+    left: 20%;
+    color: black;
+    font-size: 41px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 9px 70px 10px 70px;
+    text-align: center
+
+}
+
+.padi{
+    width: 30px;
+    height: 20px;
+    top: 500px;
+    left: 300px;
+    margin: 10px 10px 10px 103px;
+    
+}
+
+
+.padi-logo{
+
+    width: 50px;
+    margin: -10px -95px;
+    border-radius: 27%;
+}
+
+
+.aaaa{
+
+    color: black;
+    position: absolute;
+    top: 800px;
+}
+
+
+.soccer{
+
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-image: url(../images/stadium.jpeg);
+    background-size: cover;
+    background-position: center;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 38%;
+    height: 344px;
+    margin: 102px 23px 27px 45px;
+      
+     
+}
+.diving{
+
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-image:url(../images/reef.jpeg);;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 38%;
+    height: 344px;    
+    margin: -405px 706px 24px 650px ;
+    background-size: cover;
+    background-position: center;
+}
+.cooking{
+
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-image: url(../images/cooking.jpeg);
+    background-color:white;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 38%;
+    margin: 91px 600px 300px 13px;
+    background-size: cover;
+    background-position: center;
+}
+
+.video{
+
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-color:white ;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 38%;
+}
+.travel{
+
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-color:white ;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 38%;
+}
+
+
+.photo{
+
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-color: #b39491;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 89%;
+    margin: auto;
+}
+
+
+.fall {
+
+    width: 50%;
+    height: 50%;
+    margin: 0px -5px;
+}
+
+.leafe{
+    width: 50%;
+    height: 50%;
+    margin: -354px 525px;
+}
+
+
+.farm {
+    width: 50%;
+    height: 50%;
+    margin: 80px 525px;
+}
+
+.light {
+    width: 47%;
+    height: 50%;
+    margin: -633px 10px 10px 10px;
+
+}
+
+
+
+
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    background-color: lightyellow;
+    padding: 30px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  .item-1 {
+    
+     flex-grow: 1; 
+     
+     order: 2; 
+  }
+  
+  .item-2 {
+    flex-grow: 1;
+    order: 1; 
+  }
+  
+  .item-3 {
+     flex-grow: 1; 
+     order: 3;  
+  }
+
+  .item-4 {
+    flex-grow: 1; 
+    order: 4;  
+
+  }
+
+
+
+
+
+
+
+    .video-diving {
+
+        width: 450;
+        height: 230;
+    }

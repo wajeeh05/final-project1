@@ -1,0 +1,55 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+body{
+    background-color: lightskyblue;
+}
+.hcontact-me{
+    text-align: center;
+}
+
+.contact-us-inner-containa{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+.field-container{
+    margin: 10px;
+
+}
+
+
+
+.social-media {
+
+    color: white;
+    border: 3px solid white;
+    font-size: -webkit-xxx-large;
+}
+
+.twiteer {
+    margin: 10px 133px;
+    color: white;
+}
+
+.instegram{
+    margin: 10px 48px;
+    color: white;
+
+}
+
+.snapchat{
+
+    margin: 10px 133px;
+    color: white;
+
+
+}
+.nikname{
+font-size: x-large;
+
+}
+.fa-twitter-square{
+    color: white;
+}

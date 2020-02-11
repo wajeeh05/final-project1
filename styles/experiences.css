@@ -1,0 +1,75 @@
+body{
+    background-color: lightskyblue;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    scroll-behavior: smooth;
+    height: 100vh;
+  
+    color: white;
+    position: relative;
+}
+
+ 
+.municipalty{
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-color:lightsalmon;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 92%;
+    margin: 20px 20px 20px 31px;
+    
+}
+
+.binladin{
+    
+    border: 1px solid #A3B1BF;
+    padding: 16px;
+    background-color:lightgreen;
+    vertical-align: top;
+    color: black;
+    font: 14px sans-serif;
+    width: 92%;
+    margin: 20px 20px 20px 31px;
+}  
+.munc-logo{
+    margin: 20px 21px 20px 765px;
+}
+.investment {
+    margin: -200px 20px 20px 20px;
+}
+.binladin-text {
+    margin: 20px 451px 20px 20px;
+}
+
+
+
+
+.binladin-logo {
+    margin: -169px 20px 20px 750px;
+}
+ .maintenance {
+    margin: 20px
+ }
+.permit {
+    margin: 20px
+}
+.group {
+    font-size: 23px;
+    font-weight: 500;
+    
+}
+
+.con-eng {
+
+    text-decoration: underline;
+    padding: 5px;
+    font-size: larger;
+}
+
+.list-binladin {
+    font-size: medium;
+}
